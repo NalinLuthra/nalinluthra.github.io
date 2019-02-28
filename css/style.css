@@ -1,0 +1,46 @@
+.profile_menu{
+    width: 25%;
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: grey;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+#profile_data_img{
+    width: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: block;
+}
+
+#profile_data{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#profile_data_heading{
+    margin-left: 5%;
+}
+
+/* ul>li>ul{
+    display: none;
+} */
+
+ul>li:hover>ul{
+    display: block;
+}
+
+.icons{
+    font-size:30px !important;
+    margin-left: 5%;
+}
+
+.details{
+    margin-left: 26%;
+    margin-right: 5%;
+}
