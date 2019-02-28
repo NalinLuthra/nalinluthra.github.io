@@ -8,7 +8,8 @@
     top: 0;
     left: 0;
     position: fixed;
-    
+    overflow: auto;
+
 }
 #profile_data_img{
     width: 70%;
@@ -42,6 +43,40 @@ ul>li:hover>ul{
 }
 
 .details{
-    margin-left: 26%;
+    margin-left: 25%;
     margin-right: 5%;
+}
+
+.menu{
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+    top: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu_scroll{
+    display: block; 
+    /* background-color: blue;  */
+    float:left; 
+    padding: 10px;
+    text-align: center;
+    min-width: 18%;
+    max-width: 20%;
+    margin: 0px;
+}
+
+.Menu_scroll:hover{
+    background-color: rgb(110, 210, 243);
+}
+
+.Current{
+    background-color: aliceblue;
+    background-color: rgb(110, 210, 243);
+}
+
+.Current:hover{
+    background-color: crimson;
 }
