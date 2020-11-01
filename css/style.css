@@ -218,7 +218,9 @@ label {
 button {
     background-color: #00c47d;
     color: #1c1e1f;
-    padding: 2vh;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     border: 2px solid #00c47d;
     border-radius: 5px;
     font-size: 1.2em;
@@ -228,7 +230,9 @@ button {
 button:hover {
     background-color: #1c1e1f;
     color: #00c47d;
-    padding: 2vh;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     border: 2px solid #00c47d;
     border-radius: 5px;
     font-size: 1.2em;

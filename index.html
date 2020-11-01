@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Nalin Luthra</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Boot Strap files-->
@@ -182,6 +182,7 @@
             </ul>
         </div>
     </div>
+
     <!--This is page number 2-->
     <div id="contact">
         <h1 class="heading"><b><span class="highlight">Contact</span> Me</b></h1>
@@ -210,21 +211,7 @@
                 </div>
             </div>
             <hr class="internal-hr">
-            <div class="social-media">
-                <div>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </div>
-                <div>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </div>
-                <div>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </div>
-                <div>
-                    <i class="fa fa-google" aria-hidden="true"></i>
-                </div>
-            </div>
-            <hr class="internal-hr">
+
             <div class="contact-form">
                 <div style="width: 100%">
                     <input style="width: 100%" id="name" placeholder="Full Name">
@@ -239,7 +226,35 @@
                 </div>
                 <button>Let's Talk</button>
             </div>
+
+            <hr class="internal-hr">
+            <div class="social-media">
+                <div onclick="window.open('https://www.facebook.com/nalin.luthra/','mywindow')">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div onclick="window.open('https://www.instagram.com/nalin1997/','mywindow')">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+                <div onclick="window.open('https://www.linkedin.com/in/nalin-luthra/','mywindow')">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+                <div onclick="window.open('https://www.google.com/search?q=Nalin+Luthra','mywindow')">
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                </div>
+                <div onclick="window.open('https://github.com/NalinLuthra','mywindow')">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div onclick="window.open('https://twitter.com/nalinluthra','mywindow')">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+            </div>
+            <hr class="internal-hr">
         </div>
+    </div>
+
+    <!--This is page number 3-->
+    <div id="">
+
     </div>
     </div>
     </div>
@@ -250,11 +265,19 @@
         function profile() {
             document.getElementById("profile").style.display = "block";
             document.getElementById("contact").style.display = "none";
+            document.getElementById("book").style.display = "none";
         }
 
         function contact() {
             document.getElementById("profile").style.display = "none";
             document.getElementById("contact").style.display = "block";
+            document.getElementById("book").style.display = "none";
+        }
+
+        function books() {
+            document.getElementById("profile").style.display = "none";
+            document.getElementById("contact").style.display = "none";
+            document.getElementById("book").style.display = "block";
         }
     </script>
 </body>
