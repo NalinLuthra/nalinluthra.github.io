@@ -1,82 +1,190 @@
-.profile_menu{
-    width: 25%;
-    height: 100%;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    background-color: grey;
-    top: 0;
-    left: 0;
-    position: fixed;
-    overflow: auto;
-
+body {
+    background-color: #090000;
 }
-#profile_data_img{
-    width: 70%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+
+.outer-body {
+    background-color: #1c1e1f;
     margin-top: 5%;
-    display: block;
+    color: #98a6a6;
+    height: 80vh;
 }
 
-#profile_data{
-    margin-top: 1%;
-    text-align: center;
+.highlight {
+    color: #00c47d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1%;
 }
 
-#profile_data_heading{
-    margin-left: 5%;
+.heading {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1%;
+    margin-top: 3%;
 }
 
-/* ul>li>ul{
-    display: none;
-} */
-
-ul>li:hover>ul{
-    display: block;
+.setter {
+    background-color: #98a6a6;
+    width: 40%;
+    margin-left: 1%;
 }
 
-.icons{
-    font-size:30px !important;
-    margin-left: 5%;
+.internal-hr {
+    background-color: #00c47d;
+    width: 30%;
 }
 
-.details{
-    margin-left: 25%;
-    margin-right: 5%;
+hr {
+    background-color: #98a6a6;
+    width: 95%;
 }
 
-.menu{
+.education {
+    margin-left: 1%;
+}
+
+.education div {
+    font-size: large;
+    margin-left: 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.background-icon {
+    background-color: #00c47d;
+    color: #1c1e1f;
     width: 100%;
-    position: fixed;
-    background-color: grey;
-    top: 0;
-    margin: 0;
-    margin: 0;
-    padding: 0;
+    font-size: 5vh;
 }
 
-.Menu_scroll{
-    display: block; 
-    /* background-color: blue;  */
-    float:left; 
-    padding: 10px;
-    text-align: center;
-    min-width: 18%;
-    max-width: 20%;
-    margin: 0px;
+.vertical-center {
+    min-height: 80%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: flex-end; */
 }
 
-.Menu_scroll:hover{
-    background-color: rgb(110, 210, 243);
+.sidebar-top {
+    font-size: 3vh;
+    margin-top: 3vh;
+    padding: 5%;
+    /* justify-self: flex-end; */
+    /* align-content: flex-end; */
+    align-self: flex-start;
 }
 
-.Current{
-    background-color: aliceblue;
-    background-color: rgb(110, 210, 243);
+.sidebar-top:hover {
+    transition: 0.5s;
+    color: #00c47d;
+    cursor: pointer;
 }
 
-.Current:hover{
-    background-color: crimson;
+.sidebar {
+    font-size: 3vh;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    /* padding: inherit; */
+    align-self: center;
+    /* justify-items: center; */
+    /* align-self: start; */
+}
+
+.sidebar-child {
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    /* padding: inherit; */
+    align-self: center;
+}
+
+.sidebar-child:hover {
+    transition: 0.5s;
+    color: #00c47d;
+    cursor: pointer;
+}
+
+.sidebar:hover {
+    /* padding: inherit; */
+}
+
+.sidebar-end {
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    /* justify-self: flex-end; */
+    /* align-content: flex-end; */
+    align-self: flex-end;
+}
+
+.sidebar-end:hover {
+    transition: 0.5s;
+    color: #00c47d;
+    cursor: pointer;
+}
+
+.internal-scroll {
+    overflow-y: scroll;
+    height: 80vh;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.internal-scroll::-webkit-scrollbar {
+    overflow-y: scroll;
+    height: 80vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #98a6a6;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 10px;
+    background-color: #98a6a6;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #00c47d;
+}
+
+.centered {
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: '>';
+    list-style-position: outside;
+    list-style-image: none;
+    color: #00c47d;
+}
+
+.normal-color {
+    color: #98a6a6;
+}
+
+div.me {
+    background-image: url("../img/dp.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    height: 90vh;
+}
+
+#contact {
+    display: none;
 }

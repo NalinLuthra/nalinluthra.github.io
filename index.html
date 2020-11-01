@@ -1,132 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title></title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nalin's Resume</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Boot Strap files-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <link href="css/style.css" rel="stylesheet">
+
+
 </head>
+
 <body>
-    <div class="profile_menu">
-        <img id ="img-thumbnail profile_data_img" 
-        style="width: 50%;
-        position: static;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        display: block;" src="Image_drop.jpeg">
-        <br>
-        <h4 id="profile_data">Nalin Luthra</h4>
-        <p>
-                <a href="https://www.linkedin.com/in/nalin-luthra/"><i style="margin-left: 15%;" class="fa icons">&#xf08c;</i></a>
-                <a href="https://github.com/NalinLuthra"><i class="fa icons">&#xf09b;</i></a>
-                <a href="https://www.instagram.com/nalin1997/"><i class="fa icons">&#xf16d;</i></a>
-                <a href="https://wa.me/9999795087"><i class="fa icons">&#xf232;</i></a>
-                <a href="#"><i class="fa icons">&#xf16a;</i></a>
-        </p>
-        <ul>
-            <li><h5 id ="profile_data_heading">Contact</h5>
-            <ul>
-                <li>Number:- 9999795087</li>
-                <li>E-Mail:- nalin.luthra@gmail.com</li>
-            </ul>
+
+    <div class="container">
+        <div class="outer-body row justify-content-md-center">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="vertical-center">
+                            <div class="sidebar-top"><svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-patch-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z" />
+                                    <path fill-rule="evenodd"
+                                        d="M10.273 2.513l-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
+                                </svg></div>
+                            <div class=sidebar>
+                                <div class="sidebar-child" onclick="profile()"><svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                    </svg>
+                                </div>
+                                <div class="sidebar-child" onclick="contact()"><svg width="1.2em " height="1.2em " viewBox="0 0 16 16 " class="bi bi-telephone " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                                        <path fill-rule="evenodd "
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678
+                                                0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315
+                                                1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634
+                                                0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z " />
+                                    </svg></div>
+                                <div class="sidebar-child">
+                                    <svg width="1.2em " height="1.2em " viewBox="0 0 16 16 " class="bi bi-briefcase " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                                        <path fill-rule="evenodd "
+                                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z " />
+                                        <path fill-rule="evenodd "
+                                            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5
+                                                2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z " />
+                                    </svg>
+                                </div>
+                                <div class="sidebar-child">
+                                    <svg width="1.2em " height="1.2em " viewBox="0 0 16 16 " class="bi bi-book " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                                        <path fill-rule="evenodd " d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12
+                                                2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881
+                                                3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936
+                                                8 1.783z " />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="sidebar-end"><svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-cloud-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.406 1.342A5.53 5.53 0 0 1 8 0c2.69 0 4.923 2 5.166 4.579C14.758 4.804 16 6.137 16 7.773 16 9.569 14.502 11 12.687 11H10a.5.5 0 0 1 0-1h2.688C13.979 10 15 8.988 15 7.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 2.825 10.328 1 8 1a4.53 4.53 0 0 0-2.941 1.1c-.757.652-1.153 1.438-1.153 2.055v.448l-.445.049C2.064 4.805 1 5.952 1 7.318 1 8.785 2.23 10 3.781 10H6a.5.5 0 0 1 0 1H3.781C1.708 11 0 9.366 0 7.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
+                                    <path fill-rule="evenodd"
+                                        d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--This is photo are which I will upload tomorrow-->
+                    <div class="col-10" style="padding: 0%;">
+
+                        <div class="container" style="padding-left: 0; position:absolute; top : -4vh; ">
+                            <div class="me">
+                                <img src="img/dp.jpg" style="width: 100%; display: none;">
+                                <div class="heading centered" style="font-size: 1.2em;bottom: 1.2em;"><b>Nalin Luthra</b></div>
+                                <h5 class="highlight centered" style="bottom: 3em;"><b>Developer</b></h5>
+                                <div class="row">
+                                    <span class="col centered" style="bottom: 3em;">
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Right Side of the portfolio-->
+            <div class="col-lg-8 p-0 internal-scroll" id="style-1">
+                <div id="profile">
+                    <div>
+                        <h1 class="heading "><b><span class="highlight " style="margin: 0px; ">A</span>bout me</b></h1>
+                        <b><i>
+                            <span class="highlight ">22 Years</span> /
+                            <span class="highlight ">Nalin Luthra</span> /
+                            <span class="highlight ">Polymath</span>
+                    </b></i>
+                    </div>
+                    <!-- <hr class="setter "> -->
+                    <p style="margin-left: 1%; margin-top: 1%; ">
+                        A curious, polyglot and polymath who like to learn and solve problem irrespective of field. Notable contribution in research field with mostly crazy ideas, that are usually "out of the box ". Learning about new technologies, brain storming on ideas and
+                        reading books is everyday job & hobby. <span class="highlight "><b>I am part time programmer
+                            too...</b></span>
+                    </p>
+                    <hr>
+                    <div>
+                        <h1 class="heading "><b><span class="highlight "><svg width="1em " height="1em "
+                                    viewBox="0 0 16 16 " class="bi bi-emoji-heart-eyes " fill="currentColor "
+                                    xmlns="http://www.w3.org/2000/svg ">
+                                    <path fill-rule="evenodd "
+                                        d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z " />
+                                    <path fill-rule="evenodd "
+                                        d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118
+                                                2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z " />
+                                </svg></span> Facts</b></h1>
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col align-self-center my-auto ">
+                                    <div class="highlight " style="font-size: 4vh; "><b>8</b></div> Research Papers
+                                </div>
+                                <div class="col ">
+                                    <div class="highlight " style="font-size: 4vh; "><b>50+</b></div> Technical Projects
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col ">
+                                    <div class="highlight " style="font-size: 4vh; "><b>6</b></div> Awards
+                                </div>
+                                <div class="col ">
+                                    <div class="highlight " style="font-size: 4vh; "><b>8+</b></div> Programming Languages
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h1 class="heading "><b><span class="highlight "><svg width="1em " height="1em "
+                                    viewBox="0 0 16 16 " class="bi bi-book " fill="currentColor "
+                                    xmlns="http://www.w3.org/2000/svg ">
+                                    <path fill-rule="evenodd " d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461
+                                                3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881
+                                                3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936
+                                                8 1.783z " />
+                                </svg></span> Education</b></h1>
+                        <ul>
+                            <li>
+                                <div class="education " style="margin-top: 2%; ">
+                                    <h5> <span class="highlight "> B.Tech</span><span class="normal-color"> - IT</span></h5>
+                                    <span class="normal-color">
+                                    <div>Bharati Vidyapeeth's College Of Engineering <span
+                                            class="highlight ">(BVCOE)</span></div>
+                                <div class="highlight ">2016 - 2020</div>
+                                </span>
+                    </div>
+                    </li>
+                    <hr class="internal-hr ">
+                    <li>
+                        <div class="education ">
+                            <h5><span class="highlight "> Class 12</span> <span> - CBSE</span></h5>
+                            <span class="normal-color">
+                                    <div>PCMB with Cs. <span class="highlight ">94.5%</span></div>
+                        <div class="highlight ">2015 - 2016</div>
+                        </span>
+                </div>
+                </li>
+                <hr class="internal-hr ">
+                <li>
+                    <div class="education ">
+                        <h5><span class="highlight "><b></b> Class 10</span><span class="normal-color"> -
+                                        CBSE</span></h5>
+                        <span class="normal-color">
+                                    <div>Junior High <span class="highlight ">9 CGPA</span></div>
+                    <div class="highlight ">2013 - 2014</div>
+                    </span>
+            </div>
             </li>
-            <li><h5 id ="profile_data_heading">Hobbies</h5>
-            <ul class="sub-data">
-                <li>Chess</li>
-                <li>Reading Novels</li>
-                <li>Solving Puzzles</li>
-            </li>
             </ul>
-        </ul>
-        
-    </div>
-    <div class="details" style="margin-top:2%">
-    <div class="menu">
-        <div>
-            <h5 class="Menu_scroll Current">About me</h5>
-        </div>
-        <div>   
-            <h5 class="Menu_scroll">Blog/Articles</h5>
-        </div>
-        <div>
-            <h5 class="Menu_scroll">Books</h5>
-        </div>
-        <div>
-            <h5 class="Menu_scroll">Crazy Ideas</h5>
         </div>
     </div>
-    <div style="margin-left: 1%">
-            <br>
-            
-            <h2>About me</h2>
-            <p>
-                A curious, polyglot and polymath person who like to learn and solve problem irrespective of field. Notable contribution in research field with mostly crazy ideas, that usually people think are not possible. Learning about new technologies, brain storming on ideas and reading books is everyday job & hobby.
-            </p>
-            <ul>
-                <h3>Technical Projects</h3>
-                    <ul>
-                        <li>PacBot ( Indoor Navigation and Visualising physical world using ROS )</li>
-                        <li>Indoor navigation</li>
-                        <li>Self Driving Car using computer vision and ultrasonic sensors</li>
-                        <li>Home Automation (Advance) using Raspberry pi and IOT sensors</li>
-                        <li>Eye - Blinking Detection for Security and Surveillance</li>
-                        <li>Farming Drone to prevent snakes and other animals enter in the farm land</li>
-                        <li>Raspberry Pi - 3 based personal Cloud Storage</li>
-                        <li>Own Blockchain (Most simple blockchain for transaction)</li>
-                        <li>Home Automation (Basic) simple IOT Switch</li>
-                        <li>CNC - Machine using waste</li>
-                        <li>Radar using Ultrasonic Sensors</li>
-                        <li>Air-Piano</li>
-                        <li>Drone (Using KK2 flight Controller)</li>
-                        <li>Aeroplane (RC Craft)</li>
-                        <li>Laptop Controlled Car using ZigBee Communication and self made software using Processing ( JAVA ). Working radius 1.2 Km.</li>
-                        <li>Self Balancing Bot</li>
-                        <li>Line Following Robot ( Using PID and LDR )</li>
-                        <li>DPDT RoboCar</li>
-                    </ul>
-                <h3>Skills</h3>
-                    <ul>
-                        <li>Technical Languages</li>
-                        <ul>
-                            <li>C/C++</li>
-                            <li>Python</li>
-                            <li>JavaScript</li>
-                            <li>HTML/CSS</li>
-                            <li>Java</li>
-                            <li>NodeJs</li>
-                            <li>SQL</li>
-                            <li>Processing</li>
-                        </ul>
-                        <li>Robotic Systems</li>
-                        <ul>
-                            <li>Robotic Operating System (ROS)</li>
-                            <li>RViz</li>
-                            <li>Gazebo</li>
-                            <li>3D Modeling and URDF</li>
-                        </ul>
-                        <li>IOT and Hardware</li>
-                        <ul>
-                            <li>Ardunio</li>
-                            <li>ESP8266 Node MCU</li>
-                            <li>Raspberry Pi</li>
-                            <li>8085 and 8086 Microprocessor</li>
-                        </ul>
-                        <li>Software Developement and Frameworks</li>
-                        <ul>
-                            <li>Computer Vision (OpenCV)</li>
-                            <li>Machine Learning (TensorFlow)</li>
-                            <li>Image Processing</li>
-                        </ul>
-                    </ul>
-            </ul>
+    <div id="contact">This is contact</div>
     </div>
     </div>
+    </div>
+
+    <script>
+        var flag = 0;
+
+        function profile() {
+            document.getElementById("profile").style.display = "block";
+            document.getElementById("contact").style.display = "none";
+        }
+
+        function contact() {
+            document.getElementById("profile").style.display = "none";
+            document.getElementById("contact").style.display = "block";
+        }
+    </script>
 </body>
+
+
 </html>
