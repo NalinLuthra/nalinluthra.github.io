@@ -122,8 +122,9 @@ ul {
 .sidebar-end {
     font-size: 3vh;
     margin-bottom: 3vh;
-    /* justify-self: flex-end; */
-    /* align-content: flex-end; */
+    /* justify-self: center;
+    align-content: center;
+    place-self: center; */
     align-self: flex-end;
 }
 
