@@ -42,7 +42,7 @@
                                                 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634
                                                 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z " />
                                     </svg></div>
-                                <div class="sidebar-child">
+                                <div class="sidebar-child" onclick="work()">
                                     <svg width="1.2em " height="1.2em " viewBox="0 0 16 16 " class="bi bi-briefcase " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
                                         <path fill-rule="evenodd "
                                             d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z " />
@@ -51,7 +51,7 @@
                                                 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z " />
                                     </svg>
                                 </div>
-                                <div class="sidebar-child">
+                                <div class="sidebar-child" onclick="book()">
                                     <svg width="1.2em " height="1.2em " viewBox="0 0 16 16 " class="bi bi-book " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
                                         <path fill-rule="evenodd " d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12
                                                 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881
@@ -73,16 +73,14 @@
                     <!--This is photo are which I will upload tomorrow-->
                     <div class="col-10" style="padding: 0%;">
 
-                        <div class="container" style="padding-left: 0; position:absolute; top : -4vh; ">
+                        <div class="container" style="padding-left: 0; position:absolute; top : -4vh;">
                             <div class="me">
                                 <img src="img/dp.jpg" style="width: 100%; display: none;">
-                                <div class="heading centered" style="font-size: 1.2em;bottom: 1.2em;"><b>Nalin
+                            </div>
+                            <div class="text">
+                                <div class="heading centered" style="font-size: 1.6em;bottom: 1.8em;"><b>Nalin
                                         Luthra</b></div>
-                                <h5 class="highlight centered" style="bottom: 3em;"><b>Developer</b></h5>
-                                <div class="row">
-                                    <span class="col centered" style="bottom: 3em;">
-                                    </span>
-                                </div>
+                                <h5 class="highlight centered" style="bottom: 0.8em;"><b>Developer</b></h5>
                             </div>
                         </div>
                     </div>
@@ -253,8 +251,9 @@
     </div>
 
     <!--This is page number 3-->
-    <div id="">
-
+    <div id="book">
+        <h1 class="heading"><b><span class="highlight">Books</span> I have read</b></h1>
+        <hr>
     </div>
     </div>
     </div>
@@ -266,18 +265,28 @@
             document.getElementById("profile").style.display = "block";
             document.getElementById("contact").style.display = "none";
             document.getElementById("book").style.display = "none";
+            document.getElementById("work").style.display = "none";
         }
 
         function contact() {
             document.getElementById("profile").style.display = "none";
             document.getElementById("contact").style.display = "block";
             document.getElementById("book").style.display = "none";
+            document.getElementById("work").style.display = "none";
         }
 
-        function books() {
+        function book() {
             document.getElementById("profile").style.display = "none";
             document.getElementById("contact").style.display = "none";
             document.getElementById("book").style.display = "block";
+            document.getElementById("work").style.display = "none";
+        }
+
+        function work() {
+            document.getElementById("profile").style.display = "none";
+            document.getElementById("contact").style.display = "none";
+            document.getElementById("book").style.display = "none";
+            document.getElementById("work").style.display = "block";
         }
     </script>
 </body>
