@@ -188,3 +188,122 @@ div.me {
 #contact {
     display: none;
 }
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 3em;
+}
+
+.social-media div:hover {
+    color: #00c47d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+label {
+    color: white;
+}
+
+button {
+    background-color: #00c47d;
+    color: #1c1e1f;
+    padding: 2vh;
+    border: 2px solid #00c47d;
+    border-radius: 5px;
+    font-size: 1.2em;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1c1e1f;
+    color: #00c47d;
+    padding: 2vh;
+    border: 2px solid #00c47d;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+input {
+    background-color: #1c1e1f;
+    color: #00c47d;
+    border: none;
+    /* border-radius: 15%; */
+    border-bottom: 2px solid#333333;
+    margin-bottom: 4vh;
+}
+
+input:focus {
+    border-bottom: 2px solid #00c47d;
+    outline-width: 0;
+    transition: all 0.5s;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+textarea {
+    background-color: #1c1e1f;
+    color: #00c47d;
+    border: none;
+    /* border-radius: 15%; */
+    border-bottom: 2px solid#333333;
+    margin-bottom: 4vh;
+}
+
+textarea:focus {
+    border-bottom: 2px solid #00c47d;
+    outline-width: 0;
+    transition: all 0.5s;
+}
+
+textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #333333;
+}
+
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #333333;
+}
+
+textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #333333;
+}
+
+textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #333333;
+}
+
+input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #333333;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #333333;
+}
+
+input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #333333;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #333333;
+}
