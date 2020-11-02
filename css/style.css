@@ -329,3 +329,40 @@ input:-moz-placeholder {
     /* Firefox 18- */
     color: #333333;
 }
+
+@media screen and (max-width: 991px) {
+    .hide {
+        display: none;
+    }
+    .show {
+        margin-left: 10%;
+    }
+    .vertical-center div {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .internal-scroll {
+        height: 100vh;
+    }
+    .outer-body {
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .p-0 {
+        padding: 1% !important;
+    }
+    .vertical-center {
+        min-height: 100vh;
+    }
+    .hide-row {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media screen and (max-width: 600) {
+    .container {
+        height: 100vh !important;
+    }
+}
