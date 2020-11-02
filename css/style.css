@@ -335,14 +335,8 @@ input:-moz-placeholder {
         display: none;
     }
     .show {
-        margin-left: 10%;
+        margin-left: 15%;
     }
-    .vertical-center div {
-        font-size: 4vh;
-    }
-}
-
-@media screen and (max-width: 575px) {
     .internal-scroll {
         height: 100vh;
     }
@@ -358,11 +352,5 @@ input:-moz-placeholder {
     }
     .hide-row {
         flex-wrap: nowrap !important;
-    }
-}
-
-@media screen and (max-width: 600) {
-    .container {
-        height: 100vh !important;
     }
 }
