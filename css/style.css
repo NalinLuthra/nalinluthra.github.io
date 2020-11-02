@@ -2,6 +2,17 @@
     outline: 0 !important;
 }
 
+*::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #00c47d;
+}
+
+*::selection {
+    color: white;
+    background: #00c47d;
+}
+
 body {
     background-color: #090000;
 }
